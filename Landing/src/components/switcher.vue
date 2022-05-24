@@ -9,6 +9,13 @@ export default {
       isVisible: false
     };
   },
+  created()
+  {
+    document
+        .getElementById("color-opt")
+        .setAttribute("href", "./css/colors/" + 'orange' + ".css");
+        console.log("asdasd");
+  },
   methods: {
     // eslint-disable-next-line no-unused-vars
     setTheme(theme) {

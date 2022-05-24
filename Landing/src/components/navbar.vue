@@ -37,8 +37,9 @@ export default {
     <div class="container">
       <!-- LOGO -->
       <a class="navbar-brand logo text-uppercase" href="/">
-        <i class=""></i>Simple Finance
+        <!-- <i class=""></i>Simple Finance -->
       </a>
+         <img src="@/assets/images/simple-finance-images/simple-finance-logo.png" style="width: 22vh;" alt="">
 
       <button
         class="navbar-toggler"

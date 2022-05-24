@@ -10,6 +10,8 @@ import Blog from "@/components/blog";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import Switcher from "@/components/switcher";
+import Partners from "@/components/partners";
+
 
 /**
  * Index-3 component
@@ -17,6 +19,7 @@ import Switcher from "@/components/switcher";
 export default {
   components: {
     Navbar,
+    Partners,
     Blog,
     Contact,
     Footer,
@@ -35,10 +38,10 @@ export default {
         id="home"
         :style="{'background-image': 'url(' + require('@/assets/images/simple-finance-images/simple-marketing-bg.jpg') + ')', 'background-size': 'cover','background-position': 'center' }"
       >
-        <div class="bg-overlay"></div>
-        <div class="display-table">
-          <div class="display-table-cell">
-            <div class="container">
+      <div class="bg-overlay"></div>
+        <div class>
+          <div class>
+            <div class="container slidero">
               <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-white text-center">
                   <h1 class="home-title">Manage your business</h1>
@@ -50,75 +53,14 @@ export default {
               </div>
             </div>
           </div>
-         <div class="wave-effect wave-anim">
-          <div class="waves-shape shape-one">
-            <div
-              class="wave wave-one"
-              :style="{'background-image': 'url(' + require('@/assets/images/wave-shape/wave1.png') + ')'}"
-            ></div>
-          </div>
-          <div class="waves-shape shape-two">
-            <div
-              class="wave wave-two"
-              :style="{'background-image': 'url(' + require('@/assets/images/wave-shape/wave2.png') + ')'}"
-            ></div>
-          </div>
-          <div class="waves-shape shape-three">
-            <div
-              class="wave wave-three"
-              :style="{'background-image': 'url(' + require('@/assets/images/wave-shape/wave3.png') + ')'}"
-            ></div>
-          </div>
         </div>
-        </div>
+        <!-- Particles -->
+        <vue-particles class="position-relative" color="#FFF"></vue-particles>
+        
       </section>
 
       <!--END HOME-->
-      <section class="section-sm bg-light">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3">
-              <div class="client-images my-3 my-md-0">
-                <img
-                  src="@/assets/images/clients/1.png"
-                  alt="logo-img"
-                  class="mx-auto img-fluid d-block"
-                />
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="client-images my-3 my-md-0">
-                <img
-                  src="@/assets/images/clients/2.png"
-                  alt="logo-img"
-                  class="mx-auto img-fluid d-block"
-                />
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="client-images my-3 my-md-0">
-                <img
-                  src="@/assets/images/clients/3.png"
-                  alt="logo-img"
-                  class="mx-auto img-fluid d-block"
-                />
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="client-images my-3 my-md-0">
-                <img
-                  src="@/assets/images/clients/4.png"
-                  alt="logo-img"
-                  class="mx-auto img-fluid d-block"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+<Partners/>
  <section class="section" id="features">
     <div class="container">
       <div class="row align-items-center">
