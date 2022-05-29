@@ -137,12 +137,12 @@ export default {
             <li class="nav-item">
               <a @click="usFlagClicked()"
                 class="nav-link"
-              ><img id="flag" src="@/assets/images/simple-finance-images/us-flag.svg" alt="" style="width: 2vh; margin-top: 23px;"></a>
+              ><img id="flag" src="@/assets/images/simple-finance-images/us-flag.jpg" alt="" style="width: 2vh; margin-top: 23px;"></a>
             </li>
             <li class="nav-item">
               <a @click="bgFlagClicked()"
                 class="nav-link"
-              ><img id="flag" src="@/assets/images/simple-finance-images/bg-flag.svg" alt="" style="width: 2vh; margin-top: 23px;"></a>
+              ><img id="flag" src="@/assets/images/simple-finance-images/bg-flag.jpg" alt="" style="width: 2vh; margin-top: 23px;"></a>
             </li>
         </ul>
       </div>
