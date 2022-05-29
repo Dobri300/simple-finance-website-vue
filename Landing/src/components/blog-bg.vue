@@ -13,11 +13,11 @@ export default {
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
-          <h1 class="section-title text-center">About our works</h1>
+          <h1 class="section-title text-center">Успешни проекти</h1>
           <div class="section-title-border margin-t-20"></div>
           <p
             class="section-subtitle text-muted text-center font-secondary padding-t-30"
-          >We Have Done The Works,<br> Recent Case Studies</p>
+          ><br> </p>
         </div>
       </div>
 
@@ -26,14 +26,14 @@ export default {
           <div class="blog-box margin-t-30">
             <img src="@/assets/images/simple-finance-images/news-1.jpg" class="img-fluid rounded" alt />
             <div>
-              <h5 class="mt-4 text-muted">Accounting services</h5>
+              <h5 class="mt-4 text-muted">Счетоводни услуги</h5>
               <h4 class="mt-3">
-                <a href class="blog-title">Invoice processing</a>
+                <a href class="blog-title">Обработка на фактури</a>
               </h4>
               <p
                 class="text-muted"
-              >Monthly reports, Quarterly, annual reports
-                <br>Bookkeeping</p>
+              >Месечни отчети, Тримесечни, годишни отчети
+                <br>Счетоводство</p>
             </div>
           </div>
         </div>
@@ -42,14 +42,14 @@ export default {
           <div class="blog-box margin-t-30">
             <img src="@/assets/images/simple-finance-images/news-2.jpg" class="img-fluid rounded" alt />
             <div>
-              <h5 class="mt-4 text-muted">Financial services</h5>
+              <h5 class="mt-4 text-muted">Финансови услуги</h5>
               <h4 class="mt-3">
-                <a href class="blog-title">Banking and capital markets</a>
+                <a href class="blog-title">Банково дело и капиталови пазари</a>
               </h4>
               <p
                 class="text-muted"
-              >Investment management
-              <br>Insurance</p>
+              >Управление на инвестициите
+              <br>Застраховане</p>
             </div>
           </div>
         </div>
@@ -58,14 +58,14 @@ export default {
           <div class="blog-box margin-t-30">
             <img src="@/assets/images/simple-finance-images/news-3.jpg" class="img-fluid rounded" alt />
             <div>
-              <h5 class="mt-4 text-muted">Consulting</h5>
+              <h5 class="mt-4 text-muted">Консултантски услуги</h5>
               <h4 class="mt-3">
-                <a href class="blog-title">Strategy and analytics</a>
+                <a href class="blog-title">Стратегия и финансови анализи</a>
               </h4>
               <p
                 class="text-muted"
-              >Core business operations
-              <br>Human capital</p>
+              >Оптимизация на основни бизнес операции
+              <br>Управление на човешкия капитал</p>
             </div>
           </div>
         </div>
@@ -74,14 +74,14 @@ export default {
           <div class="blog-box margin-t-30">
             <img src="@/assets/images/simple-finance-images/news-4.jpg" class="img-fluid rounded" alt />
             <div>
-              <h5 class="mt-4 text-muted">Business services</h5>
+              <h5 class="mt-4 text-muted">Бизнес услуги</h5>
               <h4 class="mt-3">
-                <a href class="blog-title">Audit and assurance</a>
+                <a href class="blog-title">Одит и оценки</a>
               </h4>
               <p
                 class="text-muted"
-              >Risk advisory
-              <br>Business tax</p>
+              >Управление на риск
+              <br>Данъчни консултации</p>
             </div>
           </div>
         </div>

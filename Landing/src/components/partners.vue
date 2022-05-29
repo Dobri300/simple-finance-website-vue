@@ -4,7 +4,7 @@
         <div class="container" style="display:flex; justify-content: center;">
           <div class="row">
             <div class="">
-              <div class="client-images my-3 my-md-0"  style="width: 20vh;">
+              <div class="client-images my-3 my-md-0"  style="width: 19vh;">
                 <img
                   src="@/assets/images/simple-finance-images/crayon-logo.png"
                   alt="logo-img"

@@ -56,7 +56,7 @@ export default {
       console.log("flag clicked");
       switch (this.$route.name) {
         case 'Index-1-bg':
-          this.$router.push("");
+          this.$router.push("/");
           break;
         case 'Index-2-bg':
           this.$router.push("simple-it");
@@ -73,7 +73,7 @@ export default {
           
         default:
 }
-    }
+  }
   }
 };
 </script>
@@ -107,32 +107,32 @@ export default {
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav navbar-center" id="mySidenav" v-scroll-spy-active="{class: 'a'}">
            <li class="nav-item">
-             <router-link class="nav-link" to="/"><a
+             <router-link class="nav-link" to="/home-bg"><a
                 class="nav-link"
                 href="/"
-              >Home</a>
+              >Начало</a>
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/simple-it"><a     
+              <router-link class="nav-link" to="/simple-it-bg"><a     
                 class="nav-link"
                 href="/simple-it"
               >Simple IT</a></router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/simple-law"><a
+              <router-link class="nav-link" to="/simple-law-bg"><a
                 class="nav-link"
               >Simple Law</a></router-link>
             </li>
             <li class="nav-item">
-             <router-link class="nav-link" to="/simple-marketing"><a
+             <router-link class="nav-link" to="/simple-marketing-bg"><a
                 class="nav-link"
               >Simple Marketing</a></router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/contacts"><a
+              <router-link class="nav-link" to="/contacts-bg"><a
                 class="nav-link"
-              >Contacts</a></router-link>
+              >Контакти</a></router-link>
             </li>
             <li class="nav-item">
               <a @click="usFlagClicked()"

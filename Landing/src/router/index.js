@@ -6,10 +6,11 @@ import Index2 from "./pages/index2.vue";
 import Index3 from "./pages/index3.vue";
 import Index4 from "./pages/index4.vue";
 import Index5 from "./pages/index5.vue";
-import Index6 from "./pages/index6.vue";
-import Index7 from "./pages/index7.vue";
-import Index8 from "./pages/index8.vue";
-import Index9 from "./pages/index9.vue";
+import Index1bg from "./pages/index1-bg.vue";
+import Index2bg from "./pages/index2-bg.vue";
+import Index3bg from "./pages/index3-bg.vue";
+import Index4bg from "./pages/index4-bg.vue";
+import Index5bg from "./pages/index5-bg.vue";
 import Login from "./pages/login.vue";
 import Signup from "./pages/signup.vue";
 import Forgotpassword from './pages/password-forgot.vue';
@@ -47,24 +48,29 @@ const routes = [
     component: Index5
   },
   {
-    path: "/index-6",
-    name: "Index-6",
-    component: Index6
+    path: "/home-bg",
+    name: "Index-1-bg",
+    component: Index1bg
   },
   {
-    path: "/index-7",
-    name: "Index-7",
-    component: Index7
+    path: "/simple-it-bg",
+    name: "Index-2-bg",
+    component: Index2bg
   },
   {
-    path: "/index-8",
-    name: "Index-8",
-    component: Index8
+    path: "/simple-law-bg",
+    name: "Index-3-bg",
+    component: Index3bg
   },
   {
-    path: "/index-9",
-    name: "Index-9",
-    component: Index9
+    path: "/simple-marketing-bg",
+    name: "Index-4-bg",
+    component: Index4bg
+  },
+  {
+    path: "/contacts-bg",
+    name: "Index-5-bg",
+    component: Index5bg
   },
   {
     path: "/login",

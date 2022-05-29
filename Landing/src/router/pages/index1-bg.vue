@@ -1,14 +1,14 @@
 <script>
-import Navbar from "@/components/navbar";
-import Features from "@/components/features";
-import Services from "@/components/services";
+import NavbarBG from "@/components/navbar-bg";
+import FeaturesBG from "@/components/features-bg";
+import ServicesBG from "@/components/services-bg";
 import About from "@/components/about";
 import Pricing from "@/components/pricing";
 import Testimonial from "@/components/testimonial";
 import GetStarted from "@/components/getstarted";
-import Blog from "@/components/blog";
-import Contact from "@/components/contact";
-import Footer from "@/components/footer";
+import BlogBG from "@/components/blog-bg";
+import ContactBG from "@/components/contact-bg";
+import FooterBG from "@/components/footer-bg";
 import Switcher from "@/components/switcher";
 import Partners from "@/components/partners";
 
@@ -17,17 +17,17 @@ import Partners from "@/components/partners";
  */
 export default {
   components: {
-    Navbar,
+    NavbarBG,
     Partners,
-    Features,
-    Services,
+    FeaturesBG,
+    ServicesBG,
     // About,
     // Pricing,
     // Testimonial,
     // GetStarted,
-    Blog,
-    Contact,
-    Footer,
+    BlogBG,
+    ContactBG,
+    FooterBG,
     Switcher
   },
   methods: {
@@ -42,7 +42,7 @@ export default {
 </script>
 <template>
   <div>
-    <Navbar />
+    <NavbarBG />
 
     <div v-scroll-spy>
       <!--START HOME-->
@@ -57,11 +57,11 @@ export default {
             <div class="container slidero">
               <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-white text-center">
-                  <h1 class="home-title">MANAGE YOUR BUSINESS</h1>
-                  <h4 class="home-small-title">from the earliest development.</h4>
+                  <h1 class="home-title">УПРАВЛЯВАЙТЕ БИЗНЕСА СИ</h1>
+                  <h4 class="home-small-title">от най-ранно развитие.</h4>
                   <p
                     class="padding-t-15 home-desc mx-auto"
-                  >Be a professional in what you do.</p>
+                  >Бъдете професионалисти в това което правите.</p>
                 </div>
               </div>
             </div>
@@ -75,15 +75,11 @@ export default {
 
      
 
-      <Features />
-      <Services />
-      <About />
-      <Pricing />
-      <Testimonial />
-      <GetStarted />
-      <Blog />
-      <Contact />
-      <Footer />
+      <FeaturesBG />
+      <ServicesBG />
+      <BlogBG />
+      <ContactBG />
+      <FooterBG />
       <Switcher />
     </div>
   </div>
