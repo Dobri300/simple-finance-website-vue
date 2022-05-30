@@ -59,10 +59,11 @@ export default {
 
       </section>
       <!--END HOME-->
-      <Partners />
+      
       <Testimonial />
       <Services />
       <Blog/>
+      <Partners />
       <Footer />
       <Switcher />
     </div>

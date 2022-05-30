@@ -1,7 +1,7 @@
 <script>
 import Navbar from "@/components/navbar";
 import Features from "@/components/features";
-import Services from "@/components/services";
+import ServicesLaw from "@/components/services-law";
 import About from "@/components/about";
 import Pricing from "@/components/pricing";
 import Testimonial from "@/components/testimonial";
@@ -19,7 +19,7 @@ export default {
   components: {
     Navbar,
     Partners,
-    Services,
+    ServicesLaw,
     Blog,
     Contact,
     Footer,
@@ -27,6 +27,15 @@ export default {
   }
 };
 </script>
+<style scoped>
+@media only screen and (max-width: 600px) {
+  #aboutText
+{
+  flex-direction: column;
+}
+}
+
+</style>
 <template>
   <div>
     <Navbar />
@@ -57,12 +66,22 @@ export default {
         <!-- Particles -->
         <vue-particles class="position-relative" color="#FFF"></vue-particles>
       </section>
+      <div style="display: flex; justify-content: center; margin-top: 20px;">
+  <div id="aboutText" style="display: flex; justify-content: center; text-align: left; width: 110vh;">
+    <p style="margin: 50px;">At Simple Law, we don’t just provide legal services, we bring an entrepreneurial mindset and creativity that allows us to 
+      offer you solutions with the highest efficiency. 
+      We approach each client with the attention and professionalism necessary to achieve optimal results together.</p>
+      <p style="margin: 50px;">We strive to anticipate all the important implications of the solutions we offer so that you can be sure of the future of your business 
+        We can boast an impeccable reputation and extensive expertise 
+        of our consultants in the field of commercial, labour and civil law. Our legal consultants will be your partners. </p>
+  </div>
+  </div>
+      
 
-      <Partners />
-
-      <Services />
+      <ServicesLaw />
       <Blog />
       <Contact />
+      <Partners />
       <Footer />
       <Switcher />
     </div>

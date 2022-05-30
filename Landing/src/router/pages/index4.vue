@@ -44,11 +44,11 @@ export default {
             <div class="container slidero">
               <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-white text-center">
-                  <h1 class="home-title">Manage your business</h1>
-                  <h4 class="home-small-title">from the earliest development.</h4>
+                  <h1 class="home-title">Creative solutions to improve your business</h1>
+                  <h4 class="home-small-title">We are creating results</h4>
                   <p
                     class="padding-t-15 home-desc mx-auto"
-                  >Be a professional in what you do.</p>
+                  ></p>
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default {
       </section>
 
       <!--END HOME-->
-<Partners/>
+
  <section class="section" id="features">
     <div class="container">
       <div class="row align-items-center">
@@ -95,7 +95,37 @@ export default {
         </div>
       </div>
     </div>
-    <div class="container">
+
+    <div class="container" style="margin-top: 50px;">
+      <div class="row align-items-center">
+        <div class="col-lg-5 order-2 order-lg-1">
+          <div class="features-box mt-5 mt-lg-0">
+            <h3 style="margin-bottom: 80px;">What is our work based on?</h3>
+            
+            <ul class="text-muted list-unstyled margin-t-30 features-item-list">
+            <h4>Consultative approach</h4>
+              <li style="margin-bottom: 50px;" class>Through a consultative approach, we analyze and present your current online presence with set future goals leading to the desired outcome. 
+            This provides flexibility towards achieving goals, depending on the stage where you are.</li>
+
+            <h4>Precise planning andindividual strategy</h4>
+              <li style="margin-bottom: 50px;" class>We build an individual plan and strategy, using marketing methods in a digital environment to reach the desired target 
+                audience and overall experience, following long-term strategic actions.</li>
+            <h4>Customer satisfaction</h4>
+              <li style="margin-bottom: 50px;" class>ur team of seasoned professionals ensures effective management of marketing budget resources. 
+                Our customized marketing strategies improve your ROI over the long term. </li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="col-lg-7 order-1 order-lg-2">
+          <div class="features-img mx-auto mr-lg-0">
+            <img src="@/assets/images/growth-analytics.svg" alt="macbook image" class="img-fluid" />
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+
+    <div id="services" class="container">
       <div class="row align-items-center">
         <div class="col-lg-5 order-2 order-lg-1">
           <div class="features-box mt-5 mt-lg-0">
@@ -268,6 +298,7 @@ export default {
   </section>
       <Blog />
       <Contact />
+      <Partners/>
       <Footer />
       <Switcher />
     </div>

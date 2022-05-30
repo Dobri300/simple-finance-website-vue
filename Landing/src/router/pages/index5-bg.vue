@@ -59,8 +59,8 @@ export default {
       </section>
 
       <!--END HOME-->
-      <Partners />
       <ContactBG />
+      <Partners />
       <FooterBG />
       <Switcher />
     </div>

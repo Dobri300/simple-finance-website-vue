@@ -60,7 +60,7 @@ export default {
       </section>
 
       <!--END HOME-->
-<Partners/>
+
  <section class="section" id="features">
     <div class="container">
       <div class="row align-items-center">
@@ -89,6 +89,7 @@ export default {
             </a>
           </div>
         </div>
+        
         <div class="col-lg-7 order-1 order-lg-2">
           <div class="features-img mx-auto mr-lg-0">
             <img src="@/assets/images/growth-analytics.svg" alt="macbook image" class="img-fluid" />
@@ -96,6 +97,39 @@ export default {
         </div>
       </div>
     </div>
+
+    <div class="container" style="margin-top: 50px;">
+      <div class="row align-items-center">
+        <div class="col-lg-5 order-2 order-lg-1">
+          <div class="features-box mt-5 mt-lg-0">
+            <h3 style="margin-bottom: 80px;">На какво се основава нашата работа </h3>
+            
+            <ul class="text-muted list-unstyled margin-t-30 features-item-list">
+            <h4>Консултативен подход</h4>
+              <li style="margin-bottom: 50px;" class>Чрез консултативен подход ние анализираме и представяме Вашето текущото онлайн присъствие
+               със зададени бъдещи цели, водещи до желания резултат. Това осигурява 
+              гъвкавост към постигане на целите, в зависимост от етапа, на който се намирате.</li>
+
+            <h4>Прецизно планиране и индивидуална стратегия</h4>
+              <li style="margin-bottom: 50px;" class>Изграждаме индивидуален план и стратегия, чрез маркетинг методи в дигитална среда, 
+              за да достигнем до желаната целева аудитория и 
+              цялостното преживяване, следвайки дългосрочни стратегически действия</li>
+            <h4>Клиентска удовлетвореност</h4>
+              <li style="margin-bottom: 50px;" class>Екипът ни от опитни професионалисти се грижи за ефективното управление на  ресурсите на маркетинговия бюджет.
+               Нашите индивидуални маркетинг стратегии подобряват възвръщаемостта на Вашите инвестициите в дългосрочен план. </li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="col-lg-7 order-1 order-lg-2">
+          <div class="features-img mx-auto mr-lg-0">
+            <img src="@/assets/images/growth-analytics.svg" alt="macbook image" class="img-fluid" />
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+
+
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5 order-2 order-lg-1">
@@ -117,6 +151,9 @@ export default {
       </div>
       </div>
         
+
+
+
 
          <div class="container">
       <div class="row align-items-center">
@@ -268,6 +305,7 @@ export default {
   </section>
       <BlogBG />
       <ContactBG />
+      <Partners/>
       <FooterBG />
       <Switcher />
     </div>

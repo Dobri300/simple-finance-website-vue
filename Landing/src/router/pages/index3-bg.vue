@@ -1,7 +1,7 @@
 <script>
 import NavbarBG from "@/components/navbar-bg";
 import Features from "@/components/features";
-import ServicesBG from "@/components/services-bg";
+import ServicesLawBG from "@/components/services-law-bg";
 import About from "@/components/about";
 import Pricing from "@/components/pricing";
 import TestimonialBG from "@/components/testimonial-bg";
@@ -19,7 +19,7 @@ export default {
   components: {
     NavbarBG,
     Partners,
-    ServicesBG,
+    ServicesLawBG,
     BlogBG,
     ContactBG,
     FooterBG,
@@ -58,11 +58,12 @@ export default {
         <vue-particles class="position-relative" color="#FFF"></vue-particles>
       </section>
 
-      <Partners />
+      
 
-      <ServicesBG />
+      <ServicesLawBG />
       <BlogBG />
       <ContactBG />
+      <Partners />
       <FooterBG />
       <Switcher />
     </div>

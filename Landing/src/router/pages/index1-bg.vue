@@ -71,7 +71,7 @@ export default {
         <vue-particles class="position-relative" color="#FFF"></vue-particles>
 
       </section>
-      <Partners />
+      
 
      
 
@@ -79,6 +79,7 @@ export default {
       <ServicesBG />
       <BlogBG />
       <ContactBG />
+      <Partners />
       <FooterBG />
       <Switcher />
     </div>

@@ -59,8 +59,8 @@ export default {
       </section>
 
       <!--END HOME-->
-      <Partners />
       <Contact />
+      <Partners />
       <Footer />
       <Switcher />
     </div>

@@ -135,6 +135,13 @@ export default {
               >Contacts</a></router-link>
             </li>
             <li class="nav-item">
+              <a style="margin-top: 15px;" href="https://login.microsoftonline.com/b0ac90ba-f817-40b9-aa1a-7f95b589c403/oauth2/authorize?client
+              _id=00000003-0000-0ff1-ce00-000000000000&response_mode=form_post&protectedtoken=true&response_type=code%20id_token&resource=00000003-0000-0ff1-ce00-000000000000&scope=openid&nonce=DFFB40140710AD882D0AD024BE727E1C42EA0D69057BE2E8-A562E4D20161AFB7370A695184ACED112576C00A73280A73A896CA729A33E7E4&redirect_uri=https%3A%2F%2Fgroupsimple.sharepoint.com%2F_forms%2Fdefault.aspx&state=OD0w&claims=%7B%22id_token%22%3A%7B%22xms_cc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083-87e0-41b5-bb78-0b
+              c43c8a8e8a&client-request-id=ca4042a0-302f-4000-73ba-309f56a95b5b&popupui=1"
+                class="nav-link"
+              >Log in</a>
+            </li>
+            <li class="nav-item">
               <a @click="usFlagClicked()"
                 class="nav-link"
               ><img id="flag" src="@/assets/images/simple-finance-images/us-flag.jpg" alt="" style="width: 2vh; margin-top: 23px;"></a>
