@@ -85,7 +85,7 @@ export default {
 <template>
   <!-- STRAT NAVBAR -->
   <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark" id="navbar" style="margin-top: -0.6vh;">
-    <div class="container" style="max-width: 1300px !important;">
+    <div class="container" style="max-width: 1600px !important;">
       <!-- LOGO -->
       <a class="navbar-brand logo text-uppercase" href="/">
         <!-- <i class=""></i>Simple Finance -->
@@ -110,7 +110,7 @@ export default {
              <router-link class="nav-link" to="/home-bg"><a
                 class="nav-link"
                 href="/"
-              >Начало</a>
+              >Simple Finance</a>
               </router-link>
             </li>
             <li class="nav-item">

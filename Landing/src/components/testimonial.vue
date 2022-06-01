@@ -3,6 +3,13 @@ export default {
   name: 'Testimonial'
 }
 </script>
+<style scoped>
+.col-lg-4
+{
+    margin-left: 12vh;
+    margin-right: 10vh;
+}
+</style>
 <template>
   <!--START TESTIMONIAL-->
   <section class="section" id="testi">

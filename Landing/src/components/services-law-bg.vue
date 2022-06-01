@@ -1,9 +1,33 @@
 <script>
 export default {
-  name: 'Services'
+  name: 'Services',
+    data()
+  {
+    return{
+      firstClicked: false,
+      secondClicked: false,
+      thirdClicked: false,
+      fourthClicked: false,
+      fifthClicked: false,
+      sixthClicked: false,
+    }
+  }
 }
 </script>
-
+<style scoped>
+h4
+{
+  user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+}
+h4:hover
+{
+  cursor: pointer;
+}
+</style>
 <template>
   <div>
     <!--START SERVICES-->
@@ -22,10 +46,10 @@ export default {
           <div class="col-lg-4 margin-t-20">
             <div class="services-box">
               <div class="media">
-                <i class="pe-7s-diamond text-custom"></i>
+                <i class="pe-7s-graph2 text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Търговски дружества</h4>
-                  <p
+                  <h4 v-on:click="firstClicked ? firstClicked = false : firstClicked = true">Търговски дружества</h4>
+                  <p v-if="this.firstClicked === true" 
                     class="pt-2 text-muted"
                   >
 
@@ -65,8 +89,8 @@ export default {
               <div class="media">
                 <i class="pe-7s-display2 text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Търговски сделки</h4>
-                  <p
+                  <h4 v-on:click="secondClicked ? secondClicked = false : secondClicked = true">Търговски сделки</h4>
+                  <p v-if="this.secondClicked === true" 
                     class="pt-2 text-muted"
                   >Изготвяне на нови, съответно правен анализ на сключени търговки договори от всякакъв вид (в т.ч. продажба 
                   на стоки, ценни книжа, недвижими имоти и вещни права, комисионен и спедиционен договор, застрахователни сделки, лизинг, наем, банкови и валутни сделки, сделки с 
@@ -85,8 +109,8 @@ export default {
               <div class="media">
                 <i class="pe-7s-piggy text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Отношения с банки и финансови институции</h4>
-                  <p
+                  <h4 v-on:click="thirdClicked ? thirdClicked = false : thirdClicked = true">Отношения с банки и финансови институции</h4>
+                  <p v-if="this.thirdClicked === true" 
                     class="pt-2 text-muted"
                   >Преглед и правно съдействие във връзка с договори за кредит и учредяване/поддържане на обезпечения по тях;
                   <br><br>
@@ -108,10 +132,10 @@ export default {
           <div class="col-lg-4 margin-t-20">
             <div class="services-box">
               <div class="media">
-                <i class="pe-7s-science text-custom"></i>
+                <i class="pe-7s-users text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Обществени поръчки</h4>
-                  <p
+                  <h4  v-on:click="fourthClicked ? fourthClicked = false : fourthClicked = true">Обществени поръчки</h4>
+                  <p v-if="this.fourthClicked === true" 
                     class="pt-2 text-muted"
                   >Консултация и изготвяне/съдействие за издаване на документите за участие;
                   <br><br>
@@ -130,8 +154,8 @@ export default {
               <div class="media">
                 <i class="pe-7s-news-paper text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Трудови отношения</h4>
-                  <p
+                  <h4 v-on:click="fifthClicked ? fifthClicked = false : fifthClicked = true">Трудови отношения</h4>
+                  <p v-if="this.fifthClicked === true" 
                     class="pt-2 text-muted"
                   >Изготвяне на индивидуални трудови договори, анекси, длъжностни характеристики, споразумения, заповеди на работодателя, протоколи, решения и други;
                   <br><br>
@@ -152,10 +176,10 @@ export default {
           <div class="col-lg-4 margin-t-20">
             <div class="services-box">
               <div class="media">
-                <i class="pe-7s-plane text-custom"></i>
+                <i class="pe-7s-portfolio text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Гражданско право</h4>
-                  <p
+                  <h4 v-on:click="sixthClicked ? sixthClicked = false : sixthClicked = true">Гражданско право</h4>
+                  <p v-if="this.sixthClicked === true" 
                     class="pt-2 text-muted"
                   >Правни консултации по гражданско-правни въпроси;
                   <br><br>

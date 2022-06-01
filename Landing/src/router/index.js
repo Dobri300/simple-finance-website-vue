@@ -16,7 +16,6 @@ import Signup from "./pages/signup.vue";
 import Forgotpassword from './pages/password-forgot.vue';
 
 Vue.use(VueRouter);
-
 const routes = [
   {
     path: "/",
@@ -94,5 +93,4 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 });
-
 export default router;

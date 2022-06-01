@@ -1,9 +1,33 @@
 <script>
 export default {
-  name: 'Services'
+  name: 'Services',
+  data()
+  {
+    return{
+      firstClicked: false,
+      secondClicked: false,
+      thirdClicked: false,
+      fourthClicked: false,
+      fifthClicked: false,
+      sixthClicked: false,
+    }
+  }
 }
 </script>
-
+<style scoped>
+h4
+{
+  user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+}
+h4:hover
+{
+  cursor: pointer;
+}
+</style>
 <template>
   <div>
     <!--START SERVICES-->
@@ -22,10 +46,10 @@ export default {
           <div class="col-lg-4 margin-t-20">
             <div class="services-box">
               <div class="media">
-                <i class="pe-7s-diamond text-custom"></i>
+                <i class="pe-7s-graph2 text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Commercial companies</h4>
-                  <p
+                  <h4 v-on:click="firstClicked ? firstClicked = false : firstClicked = true">Commercial companies</h4>
+                  <p v-if="this.firstClicked === true" 
                     class="pt-2 text-muted"
                   >
 
@@ -68,8 +92,8 @@ export default {
               <div class="media">
                 <i class="pe-7s-display2 text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Comercial transactions</h4>
-                  <p
+                  <h4 v-on:click="secondClicked ? secondClicked = false : secondClicked = true">Comercial transactions</h4>
+                  <p v-if="this.secondClicked === true" 
                     class="pt-2 text-muted"
                   >Preparation of new, respectively legal analysis of concluded commercial contracts of any type (including sale of goods, securities, real estate and property rights, 
                   commission and forwarding contracts insurance transactions, leasing, rent, banking and foreign exchange transactions, service transactions –
@@ -88,8 +112,8 @@ export default {
               <div class="media">
                 <i class="pe-7s-piggy text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Relations with banks and financial institutions</h4>
-                  <p
+                  <h4 v-on:click="thirdClicked ? thirdClicked = false : thirdClicked = true">Relations with banks and financial institutions</h4>
+                  <p v-if="this.thirdClicked === true" 
                     class="pt-2 text-muted"
                   >Review and legal assistance in relation to loan agreements and the creation/maintenance of security over them;
                   <br><br>
@@ -103,10 +127,10 @@ export default {
           <div class="col-lg-4 margin-t-20">
             <div class="services-box">
               <div class="media">
-                <i class="pe-7s-science text-custom"></i>
+                <i class="pe-7s-users text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Public procurement</h4>
-                  <p
+                  <h4 v-on:click="fourthClicked ? fourthClicked = false : fourthClicked = true">Public procurement</h4>
+                  <p v-if="this.fourthClicked === true" 
                     class="pt-2 text-muted"
                   >Consultation and preparation/assistance for the issuance of participation documents;
                   <br><br>
@@ -125,8 +149,8 @@ export default {
               <div class="media">
                 <i class="pe-7s-news-paper text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Labour relations</h4>
-                  <p
+                  <h4 v-on:click="fifthClicked ? fifthClicked = false : fifthClicked = true">Labour relations</h4>
+                  <p v-if="this.fifthClicked === true" 
                     class="pt-2 text-muted"
                   >Preparation of individual employment contracts, annexes, job descriptions, agreements, employer’s orders, protocols, decisions, etc;
                   <br><br>
@@ -148,10 +172,10 @@ export default {
           <div class="col-lg-4 margin-t-20">
             <div class="services-box">
               <div class="media">
-                <i class="pe-7s-plane text-custom"></i>
+                <i class="pe-7s-portfolio text-custom"></i>
                 <div class="media-body ml-4">
-                  <h4>Civil law</h4>
-                  <p
+                  <h4 v-on:click="sixthClicked ? sixthClicked = false : sixthClicked = true">Civil law</h4>
+                  <p v-if="this.sixthClicked === true" 
                     class="pt-2 text-muted"
                   >Legal advice on civil law matters;
                   <br><br>

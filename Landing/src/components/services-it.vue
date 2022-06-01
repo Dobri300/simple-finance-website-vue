@@ -44,7 +44,7 @@ h4:hover
           <div class="col-lg-4 margin-t-20">
             <div class="services-box">
               <div class="media">
-                <i class="pe-7s-diamond text-custom"></i>
+                <i class="pe-7s-graph2 text-custom"></i>
                 <div >
                   <h4 v-on:click="firstClicked ? firstClicked = false : firstClicked = true" class="media-body ml-4">We help companies creating a digital strategy roadmap.</h4>
                   <p v-if="this.firstClicked === true" 
@@ -134,7 +134,7 @@ h4:hover
           <div class="col-lg-4 margin-t-20">
             <div class="services-box">
               <div class="media">
-                <i class="pe-7s-science text-custom"></i>
+                <i class="pe-7s-users text-custom"></i>
                 <div class="media-body ml-4">
                   <h4 v-on:click="fourthClicked ? fourthClicked = false : fourthClicked = true">Trust and Compliance.</h4>
                   <p v-if="this.fourthClicked === true"
