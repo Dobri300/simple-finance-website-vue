@@ -74,30 +74,30 @@ export default {
             <div class="float-right pull-none">
               <ul class="list-inline social m-0">
                 <li class="list-inline-item">
-                  <a href class="social-icon">
+                  <a href="https://www.facebook.com/Simple-Finance-107840468064853/" class="social-icon">
                     <i class="mdi mdi-facebook"></i>
                   </a>
                 </li>
-                <li class="list-inline-item">
+                <!-- <li class="list-inline-item">
                   <a href class="social-icon">
                     <i class="mdi mdi-twitter"></i>
                   </a>
-                </li>
+                </li> -->
                 <li class="list-inline-item">
-                  <a href class="social-icon">
+                  <a href="https://www.linkedin.com/company/simple-finance-ltd/" class="social-icon">
                     <i class="mdi mdi-linkedin"></i>
                   </a>
                 </li>
-                <li class="list-inline-item">
+                <!-- <li class="list-inline-item">
                   <a href class="social-icon">
                     <i class="mdi mdi-google-plus"></i>
                   </a>
-                </li>
-                <li class="list-inline-item">
+                </li> -->
+                <!-- <li class="list-inline-item">
                   <a href class="social-icon">
                     <i class="mdi mdi-dribbble"></i>
                   </a>
-                </li>
+                </li> -->
               </ul>
             </div>
             <div class="clearfix"></div>
