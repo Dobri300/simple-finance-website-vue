@@ -1,12 +1,12 @@
 <script>
 import NavbarBG from "@/components/navbar-bg";
 import Features from "@/components/features";
-import ServicesBG from "@/components/services-bg";
+import ServicesItBg from "@/components/services-it-bg";
 import About from "@/components/about";
 import Pricing from "@/components/pricing";
 import TestimonialBG from "@/components/testimonial-bg";
 import GetStarted from "@/components/getstarted";
-import BlogBG from "@/components/blog-bg";
+import BlogItBG from "@/components/blog-it-bg";
 import Contact from "@/components/contact";
 import FooterBG from "@/components/footer-bg";
 import Switcher from "@/components/switcher";
@@ -18,10 +18,10 @@ export default {
   components: {
     NavbarBG,
     Partners,
-    ServicesBG,
+    ServicesItBg,
     TestimonialBG,
     FooterBG,
-    BlogBG,
+    BlogItBG,
     Switcher
   }
 };
@@ -60,8 +60,8 @@ export default {
       <!--END HOME-->
       
       <TestimonialBG />
-      <ServicesBG />
-      <BlogBG/>
+      <ServicesItBg />
+      <BlogItBG/>
       <Partners />
       <FooterBG />
       <Switcher />

@@ -1,12 +1,12 @@
 <script>
 import Navbar from "@/components/navbar";
 import Features from "@/components/features";
-import Services from "@/components/services";
+import ServicesIt from "@/components/services-it";
 import About from "@/components/about";
 import Pricing from "@/components/pricing";
 import Testimonial from "@/components/testimonial";
 import GetStarted from "@/components/getstarted";
-import Blog from "@/components/blog";
+import BlogIt from "@/components/blog-it";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import Switcher from "@/components/switcher";
@@ -18,10 +18,10 @@ export default {
   components: {
     Navbar,
     Partners,
-    Services,
+    ServicesIt,
     Testimonial,
     Footer,
-    Blog,
+    BlogIt,
     Switcher
   }
 };
@@ -61,8 +61,8 @@ export default {
       <!--END HOME-->
       
       <Testimonial />
-      <Services />
-      <Blog/>
+      <ServicesIt/>
+      <BlogIt/>
       <Partners />
       <Footer />
       <Switcher />

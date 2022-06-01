@@ -6,7 +6,7 @@ import About from "@/components/about";
 import Pricing from "@/components/pricing";
 import Testimonial from "@/components/testimonial";
 import GetStarted from "@/components/getstarted";
-import Blog from "@/components/blog";
+import BlogMarketing from "@/components/blog-marketing";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import Switcher from "@/components/switcher";
@@ -20,7 +20,7 @@ export default {
   components: {
     Navbar,
     Partners,
-    Blog,
+    BlogMarketing,
     Contact,
     Footer,
     Switcher
@@ -296,7 +296,7 @@ export default {
     </div>
 
   </section>
-      <Blog />
+      <BlogMarketing />
       <Contact />
       <Partners/>
       <Footer />
