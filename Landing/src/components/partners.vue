@@ -76,7 +76,7 @@
     <div class="slider-content">
      
       
-      <figure class="shadow"> 
+      <figure class="shadow" style="visibility: hidden;"> 
          
 <img src="">
 
@@ -88,8 +88,8 @@
        <figure class="shadow"><img src="@/assets/images/simple-finance-images/check-point-logo.png"></figure>
        <figure class="shadow"><img src="@/assets/images/simple-finance-images/all-digital-logo.png"></figure>
        <figure class="shadow"><img src="@/assets/images/simple-finance-images/tuv-logo.png"></figure>
-       <figure class="shadow"><img src=""></figure>
-       <figure class="shadow"><img src=""></figure>
+       <figure class="shadow" style="visibility: hidden;"><img  src="" ></figure>
+       <figure class="shadow" style="visibility: hidden;"><img src=""></figure>
       <figure class="shadow"><img src="@/assets/images/simple-finance-images/simple-finance-logo.png"></figure>
     </div>
   </div>

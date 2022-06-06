@@ -4,6 +4,13 @@
  */
 
 export default {
+  created()
+  {
+   document
+        .getElementById("color-opt")
+        .setAttribute("href", "./css/colors/" + 'orange' + ".css");
+        console.log("asdasd"); 
+  },
   mounted: () => {
     window.onscroll = function() {
       onwindowScroll();
