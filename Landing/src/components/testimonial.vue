@@ -9,6 +9,10 @@ export default {
     margin-left: 12vh;
     margin-right: 10vh;
 }
+.centerServices
+{
+  justify-content: center;
+}
 </style>
 <template>
   <!--START TESTIMONIAL-->
@@ -23,7 +27,7 @@ export default {
           ></p>
         </div>
       </div>
-      <div class="row margin-t-50">
+      <div class="row margin-t-50 centerServices">
         <div class="col-lg-4">
           <div class="testimonial-box margin-t-30">
             <div class="testimonial-decs p-4">

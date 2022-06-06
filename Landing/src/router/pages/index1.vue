@@ -9,7 +9,6 @@ import GetStarted from "@/components/getstarted";
 import Blog from "@/components/blog";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
-import Switcher from "@/components/switcher";
 import Partners from "@/components/partners";
 
 /**
@@ -28,7 +27,6 @@ export default {
     Blog,
     Contact,
     Footer,
-    Switcher
   },
   methods: {
     /**
@@ -85,7 +83,6 @@ export default {
       <Contact />
       <Partners />
       <Footer />
-      <Switcher />
     </div>
   </div>
 </template>

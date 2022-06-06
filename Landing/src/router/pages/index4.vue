@@ -9,7 +9,6 @@ import GetStarted from "@/components/getstarted";
 import BlogMarketing from "@/components/blog-marketing";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
-import Switcher from "@/components/switcher";
 import Partners from "@/components/partners";
 
 
@@ -23,7 +22,6 @@ export default {
     BlogMarketing,
     Contact,
     Footer,
-    Switcher
   }
 };
 </script>
@@ -300,7 +298,6 @@ export default {
       <Contact />
       <Partners/>
       <Footer />
-      <Switcher />
     </div>
   </div>
 </template>

@@ -13,7 +13,8 @@ export default {
         document.body.scrollTop > 40 ||
         document.documentElement.scrollTop > 40
       ) {
-        navbar.style.backgroundColor = "#272a33";
+        // navbar.style.backgroundColor = "#272a33";
+         navbar.style.backgroundColor = '#092142';
         navbar.style.padding = "10px";
       } else {
         navbar.style.backgroundColor = "";

@@ -32,7 +32,8 @@ a:focus {
 .navbar-default {
 	border: none;
   margin-bottom: 0px;
-  background-color: #505050;
+  /* background-color: #505050; */
+  background-color: #092142 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   border-radius: 0px;
 	padding-top: 4px;
@@ -179,7 +180,6 @@ a:focus {
         margin-right: 0;
     }
 }
-
 /* right bar */
 .right-bar {
   background-color: #fff;

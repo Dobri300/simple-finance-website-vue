@@ -9,7 +9,6 @@ import GetStarted from "@/components/getstarted";
 import BlogIt from "@/components/blog-it";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
-import Switcher from "@/components/switcher";
 import Partners from "@/components/partners";
 /**
  * Index-2 component
@@ -22,7 +21,6 @@ export default {
     Testimonial,
     Footer,
     BlogIt,
-    Switcher
   }
 };
 </script>
@@ -65,7 +63,6 @@ export default {
       <BlogIt/>
       <Partners />
       <Footer />
-      <Switcher />
     </div>
   </div>
 </template>

@@ -9,7 +9,6 @@ import GetStarted from "@/components/getstarted";
 import BlogBG from "@/components/blog-bg";
 import ContactBG from "@/components/contact-bg";
 import FooterBG from "@/components/footer-bg";
-import Switcher from "@/components/switcher";
 import Partners from "@/components/partners";
 
 /**
@@ -28,7 +27,6 @@ export default {
     BlogBG,
     ContactBG,
     FooterBG,
-    Switcher
   },
   methods: {
     /**
@@ -81,7 +79,6 @@ export default {
       <ContactBG />
       <Partners />
       <FooterBG />
-      <Switcher />
     </div>
   </div>
 </template>
