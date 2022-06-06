@@ -21,7 +21,7 @@ export default {
         </div>
       </div>
 
-      <div class="row margin-t-30">
+      <div class="row margin-t-30" style="justify-content: center;">
         <div class="col-lg-4">
           <div class="blog-box margin-t-30">
             <img src="@/assets/images/simple-finance-images/news-1.jpg" class="img-fluid rounded" alt />

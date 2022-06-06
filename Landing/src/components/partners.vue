@@ -78,7 +78,7 @@
       
       <figure class="shadow" style="visibility: hidden;"> 
          
-<img src="">
+      <img src="">
 
  
       </figure>
@@ -98,6 +98,18 @@
   </div>
 </template>
 <style scoped>
+@media (max-width: 600px)
+{
+  *
+{
+  overflow-x: hidden;
+}
+.slideshow
+{
+  visibility: hidden;
+}
+
+}
 .slideshow{
   margin: 0 auto;
   padding-top: 50px;
